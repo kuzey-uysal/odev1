@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+class hesaplama {
+public:
+    hesaplama(int kenar1, int kenar2) {
+        cout << "Parametre alan constructor çağrıldı." << endl;
+    }
+
+    int cevrehesapla(int kenar1, int kenar2) {
+        int cevre = 2 * (kenar1 + kenar2);  
+        cout << "Çevre: " << cevre << endl;
+        return cevre;
+    }
+
+    int alanhesapla(int kenar1, int kenar2) {
+        int alan = kenar1 * kenar2;
+        cout << "Alan: " << alan << endl;
+        return alan;
+    }
+};
+
+int main() {
+
+    hesaplama myHesaplama(3, 2);
+
+
+    myHesaplama.cevrehesapla(3, 2);
+    myHesaplama.alanhesapla(3, 2);
+
+    return 0;
+}
