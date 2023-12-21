@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+void asalkontrol(int sayi){
+    if (sayi <= 1)
+     cout<<"sayı asal değildir";
+
+    for(int i = 2 ;i < sayi; i++){
+        if(sayi %i==0){
+            cout<<"sayı asaldır";
+        }
+    }
+}
+int main() {
+    int sayi=0;
+    cout <<"sayı giriniz:";
+    cin>>  sayi ;
+    asalkontrol(sayi);
+    return 0;
+}
