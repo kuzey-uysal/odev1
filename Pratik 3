@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+//Çıktı olarak 5 verildi fonskyion1 de sayi değişkenine yeni değer atanmış ama fonskiyon 2 de aynı adla yeni bir sayi değişkeni oluşturlmuştur 
 int sayi=2;
 void fonksiyon1()
 {
