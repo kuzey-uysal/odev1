@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int DiziElemanlarıTopla(int notlar[5]){
+int toplam = 0;
+   for (int i = 0; i < 5; i++) {
+        toplam +=notlar[i];
+        cout<<toplam<<endl ;
+    }
+ }
+int main(){
+    int notlar[5] = {90, 85, 0, 0, 88};
+    int DiziElemanlarıTopla(int notlar[]);
+    return 0;
+}
