@@ -1,15 +1,17 @@
 #include <iostream>
 using namespace std;
 
-int DiziElemanlarıTopla(int notlar[5]){
+int DiziElemanlarıTopla(int notlar[5],int n){
 int toplam = 0;
    for (int i = 0; i < 5; i++) {
+      if(puanlar[i] > 10);
         toplam +=notlar[i];
-        cout<<toplam<<endl ;
+   return toplam ;
     }
  }
 int main(){
     int notlar[5] = {90, 85, 0, 0, 88};
-    int DiziElemanlarıTopla(int notlar[]);
+cout<<n<<endl;
+    int DiziElemanlarıTopla(int notlar[],n);
     return 0;
 }
